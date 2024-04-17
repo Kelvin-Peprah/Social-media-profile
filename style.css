@@ -90,13 +90,13 @@ a {
   }
 } 
 
-@media (min-width: 750.02px) and (max-width: 1000px) {
+@media (min-width: 751px) and (max-width: 1000px) {
   body {
     background-image: linear-gradient(to left, rgb(37, 145, 233), rgb(214, 214, 205));
   }
 }
 
-@media (min-width: 1000.02px) {
+@media (min-width: 1001px) {
   body {
     background-image: linear-gradient(to left, rgb(238, 245, 240), rgb(0, 0, 0));
   }
