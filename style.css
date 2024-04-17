@@ -92,19 +92,19 @@ a {
     width: 300px;
   }
   body {
-    background-image: linear-gradient(to right, rgb(97, 89, 165), rgb(255, 255, 255));
+    background: linear-gradient(to right, rgb(97, 89, 165), rgb(255, 255, 255));
   }
 } 
 
 @media (min-width: 751px) and (max-width: 1000px) {
   body {
-    background-image: linear-gradient(to left, rgb(37, 145, 233), rgb(214, 214, 205));
+    background: linear-gradient(to left, rgb(37, 145, 233), rgb(214, 214, 205));
   }
 }
 
 @media (min-width: 1001px) {
   body {
-    background-image: linear-gradient(to left, rgb(238, 245, 240), rgb(0, 0, 0));
+    background: linear-gradient(to left, rgb(238, 245, 240), rgb(0, 0, 0));
   }
   h1, .attribution {
     color: white;
