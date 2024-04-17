@@ -6,7 +6,7 @@ body {
 }
 
 .attribution {
-  font-size: 11px; 
+  font-size: 13px; 
   text-align: center; 
 }
 
@@ -32,18 +32,22 @@ h1 {
   gap: 15px;
 }
 
-.author-name {
+.username {
   font-size: 18px;
   margin-bottom: 0;
+  font-weight: 600;
 }
 
 .location{
   color: rgb(148, 233, 12);
   margin-top: 5px;
   margin-bottom: 20px;
-}
-.detail {
   font-size: 14px;
+  font-weight: 600;
+}
+
+.user-info {
+  font-size: 16px;
 }
 
 img {
@@ -56,6 +60,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 button {
@@ -94,5 +99,8 @@ a {
 @media (min-width: 1000.02px) {
   body {
     background-image: linear-gradient(to left, rgb(238, 245, 240), rgb(0, 0, 0));
+  }
+  h1, .attribution {
+    color: white;
   }
 }
