@@ -73,6 +73,12 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: rgb(148, 233, 12);
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
 a {
   text-decoration: none;
   color: white;
